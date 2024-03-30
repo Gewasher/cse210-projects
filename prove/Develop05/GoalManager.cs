@@ -107,6 +107,7 @@ public class GoalManager
         Console.WriteLine(" 1. Simple Goal");
         Console.WriteLine(" 2. Eternal Goal");
         Console.WriteLine(" 3. Checklist Goal");
+        Console.WriteLine(" 4. Eternal Checklist Goal");
         Console.Write("Which type of goal would you like to create? ");
         string goalType = Console.ReadLine();
 
