@@ -26,7 +26,11 @@ public abstract class Entity
     {
         _health = health;
     }
-    
+
+    public void SetStrength(double strength)
+    {
+        _strength = strength;
+    }
     public double Attack()
     {
         return _strength;
